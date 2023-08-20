@@ -81,7 +81,7 @@ body{
 #navbar li a.active::after,
 #navbar li a:hover::after{
     content: "";
-    width: 60%;
+    width: 50%;
     height: 2px;
     background-color: #465b52;
     position: absolute;
@@ -91,3 +91,38 @@ body{
 /**Navbar link style ends*/
 
 /**Navbar Style ends*/
+
+/***Hero section style starts*/
+#hero{
+    background-image: url("img/header4.png");
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position-x: right;
+    padding: 0 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4{
+    padding-bottom: 35px;
+}
+
+#hero h1{
+    color: #465b52;
+}
+
+#hero button{
+    background-image: url("img/button.png");
+    background-color: transparent;
+    color: #465b52;
+    border: 0;
+    background-size: cover;
+    padding: 14px 80px 14px 65px;
+    cursor: pointer;
+    font-weight: 700;
+    background-repeat: no-repeat;
+    font-size: 15px;
+}
+/***Hero section style ends*/
