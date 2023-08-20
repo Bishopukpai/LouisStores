@@ -70,6 +70,10 @@ body{
     font-weight: 600;
     color: #1a1a1a;
 }
+
+#navbar li a:hover{
+    color: #465b52;
+}
 /**Navbar link style ends*/
 
 /**Navbar Style ends*/
