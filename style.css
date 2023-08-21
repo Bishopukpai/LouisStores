@@ -291,4 +291,9 @@ body{
 #banner h2 span{
     color: red;
 }
+
+#banner button:hover{
+    background-color: #5c776b;
+    color: #fff;
+}
 /**Explore More style ends */
