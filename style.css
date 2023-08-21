@@ -366,4 +366,40 @@ body{
     color: #fff;
     border: none;
 }
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/banner/b7.jpeg");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+#banner3 h2{
+    color: #5c776b;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 .banner-box3{
+    background-image: url("img/banner/b4.jpeg");
+}
+
+#banner3 .banner-box4{
+    background-image: url("img/banner/b18.jpeg");
+}
 /**Explore More style ends */
