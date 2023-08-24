@@ -103,7 +103,10 @@ body{
 
 #navbar li a:hover,
 #navbar li a.active{
-    color: #465b52;
+    color: #fff;
+    background-color: #465b52;
+    padding: 10px;
+    border-radius: 17px;
 }
 
 #close{
@@ -113,12 +116,10 @@ body{
 #navbar li a.active::after,
 #navbar li a:hover::after{
     content: "";
-    width: 10%;
-    height: 2px;
+    color: #fff;
     background-color: #465b52;
-    position: absolute;
-    bottom: -4px;
-    left: 20px;
+    padding: 10px;
+    border-radius: 17px;
 }
 
 #mobile{
@@ -577,5 +578,19 @@ footer .copyright{
         color: #222;
         text-decoration: none;
         font-size: 25px;
+    }
+
+    #banner3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #newsletter .form{
+        display: flex;
+        width: 80%;
+    }
+
+    .banner-box2{
+        margin-top: 20px;
     }
 }
