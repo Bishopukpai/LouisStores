@@ -634,6 +634,10 @@ footer .copyright{
 #prodetails .single-pro-details select:focus{
     outline: none;
 }
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
 /*Start Media Query */
 @media (max-width: 799px) {
  #navbar {
