@@ -570,6 +570,52 @@ footer .copyright{
     font-weight: 600;
 }
 
+/**Products details page style begins*/
+
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+#prodetails .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 32%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+
+}
+
+#prodetails .single-pro-details h4{
+    padding: 0 40px 20px 0;
+
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    
+}
+
 /*Start Media Query */
 @media (max-width: 799px) {
  #navbar {
@@ -653,6 +699,8 @@ footer .copyright{
         top: 0;
         left: 0;
     }
-
+    #newsletter .form{
+        width: 160%;
+    }
     
 }
