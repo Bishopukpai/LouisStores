@@ -63,7 +63,7 @@ button.white{
 }
 
 body{
-    width: fit-content;
+    width: ;
 }
 
 /*Navbar  Style Begins**/
@@ -724,9 +724,41 @@ footer .copyright{
         position: sticky;
         top: 0;
         left: 0;
-    }
-    #newsletter .form{
-        width: 160%;
+        width: 100%;
     }
     
+    #hero{
+        background-size: contain;
+        background-position: 120%;
+    }
+
+    /*single product*/
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    #newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/banner/images\ \(6\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
