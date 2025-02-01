@@ -1,0 +1,65 @@
+[
+{
+   "id": 1,
+   "image": "img/products/instagram-5.jpeg",
+    "name": "Adidas",
+    "description": "Cartoon Astronaut T-Shirts",
+    "price" : 200
+},
+{
+    "id": 2,
+    "image": "img/products/f2(products).jpeg",
+     "name": "Adidas",
+     "description": "Cartoon Astronaut T-Shirts",
+     "price" : 200
+ },
+ {
+    "id": 3,
+    "image": "img/products/musthave-4.png" ,
+     "name": "Adidas",
+     "description": "Cartoon Astronaut T-Shirts",
+     "price" : 200
+ },
+ {
+    "id": 4,
+    "image": "img/products/f4(products).jpeg",
+     "name": "Adidas",
+     "description": "Cartoon Astronaut T-Shirts",
+     "price" : 200
+ },
+ {
+    "id": 5,
+    "image": "img/products/f5(products).jpeg",
+     "name": "Adidas",
+     "description": "Cartoon Astronaut T-Shirts",
+     "price" : 200
+ },
+ {
+    "id": 6,
+    "image": "img/products/musthave-5.png",
+     "name": "Adidas",
+     "description": "Cartoon Astronaut T-Shirts",
+     "price" : 200
+ },
+ {
+    "id": 7,
+    "image": "img/products/news-3.jpeg",
+     "name": "Adidas",
+     "description": "Cartoon Astronaut T-Shirts",
+     "price" : 200
+ },
+ {
+    "id": 8,
+    "image": "img/products/musthave-10.png",
+     "name": "Adidas",
+     "description": "Cartoon Astronaut T-Shirts",
+     "price" : 200
+ },
+ {
+    "id": 9,
+    "image": "img/products/instagram-5.jpeg",
+     "name": "Adidas",
+     "description": "Cartoon Astronaut T-Shirts",
+     "price" : 200
+ }
+]
